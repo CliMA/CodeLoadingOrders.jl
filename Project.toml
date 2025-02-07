@@ -1,0 +1,24 @@
+name = "CodeLoadingOrders"
+uuid = "3bd03e8d-c932-44f6-8ed7-5dd3dd6687f4"
+authors = ["CliMA Contributors <clima-software@caltech.edu>"]
+version = "0.1.0"
+
+[deps]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+[compat]
+Random = "1"
+Aqua = "0.8"
+Test = "1"
+TOML = "1"
+UnicodePlots = "3"
+julia = "1.8"
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
+
+[targets]
+test = ["Test", "Aqua", "TOML", "UnicodePlots"]
